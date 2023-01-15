@@ -1,16 +1,17 @@
-# Three.js Journey
-
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
-
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
+# Three.js Character Controller
+A simple and lightweight character controller for the three.js library.
+## Features
+- Animation blending
+- Customizable movement
+- ⚠ More animations and Features will be added in future with Frameworks like Cannon,js
+## Installation
+- npm install 
+- npm run dev
+- ⚠ Dont forget to use this project with suitable Webpack for Three.js
+## Customization
+- You can customize the movement speed, gravity strength, and jump height by adjusting the corresponding properties on the controller instance. Like:
+```
+controller.movementSpeed = 10;
+controller.gravity = 9.8;
+controller.jumpHeight = 10;
 ```

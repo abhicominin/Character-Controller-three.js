@@ -1,8 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.CharacterControls = void 0;
+
 var THREE = require("three");
 var utils_1 = require("./utils");
 var CharacterControls = /** @class */ (function() {
